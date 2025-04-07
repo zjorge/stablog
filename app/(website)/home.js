@@ -2,6 +2,8 @@ import Link from "next/link";
 import Container from "@/components/container";
 import PostList from "@/components/postlist";
 
+import { Button } from '@heroui/react';
+
 export default function Post({ posts }) {
   return (
     <>
@@ -29,6 +31,9 @@ export default function Post({ posts }) {
               <span>View all Posts</span>
             </Link>
           </div>
+          <Button variant="primary" size="md">
+            Hello from HeroUI
+          </Button>
         </Container>
       )}
     </>
