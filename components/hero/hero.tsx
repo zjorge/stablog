@@ -12,10 +12,10 @@ export function Hero() {
         Long-form, self-hydrating, token-aware, edge-ready content.
       </p>
       <div className="flex justify-center gap-4">
-        <Button variant="primary" size="md">
+        <Button variant="ghost" size="md">
           Explore Posts
         </Button>
-        <Button variant="secondary" size="md">
+        <Button variant="ghost" size="md">
           About the Project
         </Button>
       </div>
